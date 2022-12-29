@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'photos';
+  apiKey:String = 'tS4irPtoTaSYEjs4SMmHBncZwuUif31inHgV-lpuoA4';
 }
