@@ -1,1 +1,6 @@
 <p>photo-show works!</p>
+<button class="btn btn-primary" (click)="updatePhoto()">
+  New Picture [{{ photoCntr }}]
+</button>
+<hr />
+<img [src]="this.imgUrl" alt="" srcset="" />
